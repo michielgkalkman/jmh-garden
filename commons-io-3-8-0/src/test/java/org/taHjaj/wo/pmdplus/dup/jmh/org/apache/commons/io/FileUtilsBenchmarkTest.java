@@ -1,5 +1,6 @@
 package org.taHjaj.wo.pmdplus.dup.jmh.org.apache.commons.io;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.Runner;
@@ -20,6 +21,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
+@Ignore
 public class FileUtilsBenchmarkTest {
     //
     // Test tiny improvement to FileUtils::opyDirectory in
@@ -127,7 +129,7 @@ public class FileUtilsBenchmarkTest {
         }
 
         @TearDown(Level.Invocation)
-        public void tearDown() throws IOException {
+        public void tearDown() {
             deleteDirectoryRecursively(fromTempDir);
             deleteDirectoryRecursively(toTempDir);
         }
@@ -155,7 +157,7 @@ public class FileUtilsBenchmarkTest {
         }
 
         @TearDown(Level.Invocation)
-        public void tearDown() throws IOException {
+        public void tearDown() {
             deleteDirectoryRecursively(fromTempDir);
             deleteDirectoryRecursively(toTempDir);
         }
@@ -183,7 +185,7 @@ public class FileUtilsBenchmarkTest {
         }
 
         @TearDown(Level.Invocation)
-        public void tearDown() throws IOException {
+        public void tearDown() {
             deleteDirectoryRecursively(fromTempDir);
             deleteDirectoryRecursively(toTempDir);
         }
@@ -211,11 +213,12 @@ public class FileUtilsBenchmarkTest {
         }
 
         @TearDown(Level.Invocation)
-        public void tearDown() throws IOException {
+        public void tearDown() {
             deleteDirectoryRecursively(fromTempDir);
             deleteDirectoryRecursively(toTempDir);
         }
     }
+
 
     private static void deleteDirectoryRecursively(Path pathToBeDeleted) {
         System.out.println( "Deleting " + pathToBeDeleted.toString());
@@ -586,7 +589,7 @@ public class FileUtilsBenchmarkTest {
             throw new IOException("Failed to list contents of " + srcDir);
         }
         if (destDir.exists()) {
-            if (destDir.isDirectory() == false) {
+            if (!destDir.isDirectory()) {
                 throw new IOException("Destination '" + destDir + "' exists but is not a directory");
             }
         } else {
@@ -594,7 +597,7 @@ public class FileUtilsBenchmarkTest {
                 throw new IOException("Destination '" + destDir + "' directory cannot be created");
             }
         }
-        if (destDir.canWrite() == false) {
+        if (!destDir.canWrite()) {
             throw new IOException("Destination '" + destDir + "' cannot be written to");
         }
         for (final File srcFile : srcFiles) {

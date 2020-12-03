@@ -4,55 +4,93 @@
 	<groupId>org.taHjaj.wo</groupId>
 	<artifactId>jmh-garden</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jmh.version>1.25.2</jmh.version>
+		<cipherVersion>1.8</cipherVersion>
 	</properties>
+
+	<modules>
+		<module>simple</module>
+		<module>commons-io-3-8-0</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.assertj</groupId>
+				<artifactId>assertj-core</artifactId>
+				<version>3.11.1</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openjdk.jmh</groupId>
+				<artifactId>jmh-core</artifactId>
+				<version>${jmh.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openjdk.jmh</groupId>
+				<artifactId>jmh-generator-annprocess</artifactId>
+				<version>${jmh.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.spf4j/spf4j-jmh -->
+			<dependency>
+				<groupId>org.spf4j</groupId>
+				<artifactId>spf4j-jmh</artifactId>
+				<version>8.8.5</version>
+				<scope>test</scope>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.spf4j/spf4j-core -->
+			<dependency>
+				<groupId>org.spf4j</groupId>
+				<artifactId>spf4j-core</artifactId>
+				<version>8.8.5</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>4.13.1</version>
+				<scope>test</scope>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.code.findbugs/annotations -->
+			<dependency>
+				<groupId>com.google.code.findbugs</groupId>
+				<artifactId>annotations</artifactId>
+				<version>3.0.1</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>1.18.16</version>
+			</dependency>
+		</dependencies>
+
+	</dependencyManagement>
+
 
 	<dependencies>
 		<dependency>
-			<groupId>org.assertj</groupId>
-			<artifactId>assertj-core</artifactId>
-			<version>3.11.1</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.openjdk.jmh</groupId>
 			<artifactId>jmh-core</artifactId>
-			<version>${jmh.version}</version>
-			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.openjdk.jmh</groupId>
 			<artifactId>jmh-generator-annprocess</artifactId>
-			<version>${jmh.version}</version>
-			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.spf4j/spf4j-jmh -->
+		<!-- https://mvnrepository.com/artifact/com.google.code.findbugs/annotations -->
 		<dependency>
-			<groupId>org.spf4j</groupId>
-			<artifactId>spf4j-jmh</artifactId>
-			<version>8.8.5</version>
-			<scope>test</scope>
+			<groupId>com.google.code.findbugs</groupId>
+			<artifactId>annotations</artifactId>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.spf4j/spf4j-core -->
 		<dependency>
 			<groupId>org.spf4j</groupId>
 			<artifactId>spf4j-core</artifactId>
-			<version>8.8.5</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.13.1</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.4</version>
 		</dependency>
 	</dependencies>
 
@@ -130,7 +168,7 @@
 				</plugin>
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.17</version>
+					<version>2.22.1</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>

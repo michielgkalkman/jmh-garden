@@ -1,0 +1,9 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,org/taHjaj/wo/pmdplus/dup/jmh/org/apache/commons/io/MoveDirectoryToDirectoryBenchmarkTest$MoveDirectoryToDirectory.setUp
+inline,org/taHjaj/wo/pmdplus/dup/jmh/org/apache/commons/io/MoveDirectoryToDirectoryBenchmarkTest$MoveDirectoryToDirectory.tearDown
+inline,org/taHjaj/wo/pmdplus/dup/jmh/org/apache/commons/io/MoveDirectoryToDirectoryBenchmarkTest.moveDirectoryToDirectroy
+inline,org/taHjaj/wo/pmdplus/dup/jmh/org/apache/commons/io/MoveDirectoryToDirectoryBenchmarkTest.moveDirectoryToDirectroyDedup

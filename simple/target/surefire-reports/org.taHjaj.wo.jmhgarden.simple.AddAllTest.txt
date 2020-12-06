@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.taHjaj.wo.jmhgarden.simple.AddAllTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.125 s - in org.taHjaj.wo.jmhgarden.simple.AddAllTest

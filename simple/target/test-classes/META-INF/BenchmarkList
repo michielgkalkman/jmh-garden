@@ -1,0 +1,7 @@
+JMH S 48 org.taHjaj.wo.jmhgarden.simple.CurrentThreadTest S 87 org.taHjaj.wo.jmhgarden.simple.jmh_generated.CurrentThreadTest_runGetStackTrace_jmhTest S 16 runGetStackTrace S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 41 org.taHjaj.wo.jmhgarden.simple.AddAllTest S 73 org.taHjaj.wo.jmhgarden.simple.jmh_generated.AddAllTest_checkFull_jmhTest S 9 checkFull S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 48 org.taHjaj.wo.jmhgarden.simple.CurrentThreadTest S 87 org.taHjaj.wo.jmhgarden.simple.jmh_generated.CurrentThreadTest_runCurrentThread_jmhTest S 16 runCurrentThread S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 41 org.taHjaj.wo.jmhgarden.simple.AddAllTest S 74 org.taHjaj.wo.jmhgarden.simple.jmh_generated.AddAllTest_checkFull2_jmhTest S 10 checkFull2 S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 41 org.taHjaj.wo.jmhgarden.simple.AddAllTest S 69 org.taHjaj.wo.jmhgarden.simple.jmh_generated.AddAllTest_check_jmhTest S 5 check S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 41 org.taHjaj.wo.jmhgarden.simple.AddAllTest S 70 org.taHjaj.wo.jmhgarden.simple.jmh_generated.AddAllTest_check2_jmhTest S 6 check2 S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 41 org.taHjaj.wo.jmhgarden.simple.AddAllTest S 74 org.taHjaj.wo.jmhgarden.simple.jmh_generated.AddAllTest_checkFull3_jmhTest S 10 checkFull3 S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 

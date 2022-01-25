@@ -1,0 +1,695 @@
+# JMH version: 1.34
+# VM version: JDK 17.0.1, OpenJDK 64-Bit Server VM, 17.0.1+12-LTS
+# VM invoker: C:\Program Files\Amazon Corretto\jdk17.0.1_12\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 60 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.apache.commons.io.FilenameUtilsBenchmark.getFullPath
+# Parameters: (filename = /)
+
+# Run progress: 0,00% complete, ETA 00:08:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 73854511,273 ops/s
+Iteration   1: 68969098,306 ops/s
+Iteration   2: 76496682,738 ops/s
+Iteration   3: 80121541,790 ops/s
+Iteration   4: 74071499,450 ops/s
+Iteration   5: 57576199,640 ops/s
+Iteration   6: 76963961,245 ops/s
+Iteration   7: 68986195,477 ops/s
+Iteration   8: 76267455,000 ops/s
+Iteration   9: 75839622,250 ops/s
+Iteration  10: 70022692,523 ops/s
+Iteration  11: 81724584,887 ops/s
+Iteration  12: 77139494,753 ops/s
+Iteration  13: 72866486,316 ops/s
+Iteration  14: 79388932,886 ops/s
+Iteration  15: 76270212,064 ops/s
+Iteration  16: 74985946,344 ops/s
+Iteration  17: 82676985,608 ops/s
+Iteration  18: 74840089,076 ops/s
+Iteration  19: 74320238,033 ops/s
+Iteration  20: 82145269,960 ops/s
+Iteration  21: 77852846,687 ops/s
+Iteration  22: 71369955,091 ops/s
+Iteration  23: 77577437,373 ops/s
+Iteration  24: 74073516,882 ops/s
+Iteration  25: 78687236,269 ops/s
+Iteration  26: 74952703,928 ops/s
+Iteration  27: 79720294,315 ops/s
+Iteration  28: 70532765,687 ops/s
+Iteration  29: 79948580,359 ops/s
+Iteration  30: 78124359,465 ops/s
+Iteration  31: 83588697,638 ops/s
+Iteration  32: 75815006,310 ops/s
+Iteration  33: 77325244,769 ops/s
+Iteration  34: 79014495,272 ops/s
+Iteration  35: 76702397,857 ops/s
+Iteration  36: 77535103,640 ops/s
+Iteration  37: 81462257,019 ops/s
+Iteration  38: 60605561,627 ops/s
+Iteration  39: 54259127,508 ops/s
+Iteration  40: 58060950,163 ops/s
+Iteration  41: 72442575,290 ops/s
+Iteration  42: 77975313,378 ops/s
+Iteration  43: 75598896,343 ops/s
+Iteration  44: 70190901,896 ops/s
+Iteration  45: 71732470,892 ops/s
+Iteration  46: 63090863,542 ops/s
+Iteration  47: 64071479,836 ops/s
+Iteration  48: 69551737,833 ops/s
+Iteration  49: 68070505,471 ops/s
+Iteration  50: 71080402,880 ops/s
+Iteration  51: 74183968,111 ops/s
+Iteration  52: 70614497,211 ops/s
+Iteration  53: 72744279,112 ops/s
+Iteration  54: 77576145,827 ops/s
+Iteration  55: 83554007,838 ops/s
+Iteration  56: 76446439,796 ops/s
+Iteration  57: 64640093,393 ops/s
+Iteration  58: 70635142,090 ops/s
+Iteration  59: 79005005,744 ops/s
+Iteration  60: 76226172,803 ops/s
+
+
+Result "org.apache.commons.io.FilenameUtilsBenchmark.getFullPath":
+  73971877,091 ±(99.9%) 2853717,902 ops/s [Average]
+  (min, avg, max) = (54259127,508, 73971877,091, 83588697,638), stdev = 6382749,494
+  CI (99.9%): [71118159,189, 76825594,994] (assumes normal distribution)
+
+
+# JMH version: 1.34
+# VM version: JDK 17.0.1, OpenJDK 64-Bit Server VM, 17.0.1+12-LTS
+# VM invoker: C:\Program Files\Amazon Corretto\jdk17.0.1_12\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 60 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.apache.commons.io.FilenameUtilsBenchmark.getFullPath
+# Parameters: (filename = \)
+
+# Run progress: 12,50% complete, ETA 00:07:14
+# Fork: 1 of 1
+# Warmup Iteration   1: 66618015,064 ops/s
+Iteration   1: 74965740,834 ops/s
+Iteration   2: 75504505,699 ops/s
+Iteration   3: 76380670,793 ops/s
+Iteration   4: 70783069,355 ops/s
+Iteration   5: 73943262,822 ops/s
+Iteration   6: 71303283,409 ops/s
+Iteration   7: 77196557,665 ops/s
+Iteration   8: 69640555,484 ops/s
+Iteration   9: 75079986,377 ops/s
+Iteration  10: 74974009,805 ops/s
+Iteration  11: 76298417,248 ops/s
+Iteration  12: 72750650,503 ops/s
+Iteration  13: 42100880,143 ops/s
+Iteration  14: 53792159,172 ops/s
+Iteration  15: 62548282,004 ops/s
+Iteration  16: 68678366,473 ops/s
+Iteration  17: 68269326,073 ops/s
+Iteration  18: 64411380,271 ops/s
+Iteration  19: 70478092,205 ops/s
+Iteration  20: 54055994,913 ops/s
+Iteration  21: 59970136,677 ops/s
+Iteration  22: 56522587,215 ops/s
+Iteration  23: 61818132,657 ops/s
+Iteration  24: 70647199,566 ops/s
+Iteration  25: 72504603,070 ops/s
+Iteration  26: 72844859,094 ops/s
+Iteration  27: 70887778,766 ops/s
+Iteration  28: 83570392,620 ops/s
+Iteration  29: 85506737,088 ops/s
+Iteration  30: 70209599,646 ops/s
+Iteration  31: 80906068,336 ops/s
+Iteration  32: 77414210,647 ops/s
+Iteration  33: 74380676,029 ops/s
+Iteration  34: 77977480,953 ops/s
+Iteration  35: 71889166,205 ops/s
+Iteration  36: 72481430,003 ops/s
+Iteration  37: 80283424,353 ops/s
+Iteration  38: 75721787,214 ops/s
+Iteration  39: 78386052,878 ops/s
+Iteration  40: 72215741,974 ops/s
+Iteration  41: 70350474,590 ops/s
+Iteration  42: 78264726,257 ops/s
+Iteration  43: 77108544,473 ops/s
+Iteration  44: 74043126,855 ops/s
+Iteration  45: 76592601,261 ops/s
+Iteration  46: 76618521,579 ops/s
+Iteration  47: 77883068,937 ops/s
+Iteration  48: 66798023,340 ops/s
+Iteration  49: 66373242,370 ops/s
+Iteration  50: 72980700,379 ops/s
+Iteration  51: 67106183,833 ops/s
+Iteration  52: 67438560,914 ops/s
+Iteration  53: 65470359,371 ops/s
+Iteration  54: 78707328,326 ops/s
+Iteration  55: 76741415,320 ops/s
+Iteration  56: 70741678,855 ops/s
+Iteration  57: 75124942,413 ops/s
+Iteration  58: 64883768,971 ops/s
+Iteration  59: 47148305,130 ops/s
+Iteration  60: 71754549,641 ops/s
+
+
+Result "org.apache.commons.io.FilenameUtilsBenchmark.getFullPath":
+  71023722,984 ±(99.9%) 3639212,465 ops/s [Average]
+  (min, avg, max) = (42100880,143, 71023722,984, 85506737,088), stdev = 8139620,774
+  CI (99.9%): [67384510,519, 74662935,450] (assumes normal distribution)
+
+
+# JMH version: 1.34
+# VM version: JDK 17.0.1, OpenJDK 64-Bit Server VM, 17.0.1+12-LTS
+# VM invoker: C:\Program Files\Amazon Corretto\jdk17.0.1_12\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 60 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.apache.commons.io.FilenameUtilsBenchmark.getFullPath
+# Parameters: (filename = /abc)
+
+# Run progress: 25,00% complete, ETA 00:06:12
+# Fork: 1 of 1
+# Warmup Iteration   1: 21851662,778 ops/s
+Iteration   1: 23077528,483 ops/s
+Iteration   2: 28842057,960 ops/s
+Iteration   3: 26388474,759 ops/s
+Iteration   4: 30400621,479 ops/s
+Iteration   5: 22744134,217 ops/s
+Iteration   6: 26521894,295 ops/s
+Iteration   7: 26429011,903 ops/s
+Iteration   8: 29522723,963 ops/s
+Iteration   9: 26306528,000 ops/s
+Iteration  10: 22657894,517 ops/s
+Iteration  11: 24767612,598 ops/s
+Iteration  12: 25291408,533 ops/s
+Iteration  13: 22608108,209 ops/s
+Iteration  14: 26215554,077 ops/s
+Iteration  15: 24088995,153 ops/s
+Iteration  16: 23975828,680 ops/s
+Iteration  17: 26599592,892 ops/s
+Iteration  18: 29314127,607 ops/s
+Iteration  19: 26461658,916 ops/s
+Iteration  20: 27289024,666 ops/s
+Iteration  21: 28891999,693 ops/s
+Iteration  22: 26397020,111 ops/s
+Iteration  23: 27041474,483 ops/s
+Iteration  24: 25166401,180 ops/s
+Iteration  25: 24060267,494 ops/s
+Iteration  26: 28892563,666 ops/s
+Iteration  27: 27576847,395 ops/s
+Iteration  28: 24865179,243 ops/s
+Iteration  29: 20795205,421 ops/s
+Iteration  30: 23841896,965 ops/s
+Iteration  31: 22375282,568 ops/s
+Iteration  32: 24819472,154 ops/s
+Iteration  33: 24588258,047 ops/s
+Iteration  34: 24950409,119 ops/s
+Iteration  35: 28062883,792 ops/s
+Iteration  36: 25835873,470 ops/s
+Iteration  37: 17401605,515 ops/s
+Iteration  38: 21286852,090 ops/s
+Iteration  39: 27648930,551 ops/s
+Iteration  40: 24831890,597 ops/s
+Iteration  41: 23380439,396 ops/s
+Iteration  42: 27664804,092 ops/s
+Iteration  43: 28885642,047 ops/s
+Iteration  44: 27239751,121 ops/s
+Iteration  45: 27553958,436 ops/s
+Iteration  46: 28147040,041 ops/s
+Iteration  47: 25724369,132 ops/s
+Iteration  48: 28700253,179 ops/s
+Iteration  49: 27410212,083 ops/s
+Iteration  50: 28159312,615 ops/s
+Iteration  51: 28799635,299 ops/s
+Iteration  52: 23664490,753 ops/s
+Iteration  53: 28724260,592 ops/s
+Iteration  54: 27180357,594 ops/s
+Iteration  55: 27412307,915 ops/s
+Iteration  56: 26931440,675 ops/s
+Iteration  57: 25517262,889 ops/s
+Iteration  58: 29420508,095 ops/s
+Iteration  59: 28587724,939 ops/s
+Iteration  60: 27170011,642 ops/s
+
+
+Result "org.apache.commons.io.FilenameUtilsBenchmark.getFullPath":
+  26085114,617 ±(99.9%) 1120499,283 ops/s [Average]
+  (min, avg, max) = (17401605,515, 26085114,617, 30400621,479), stdev = 2506157,397
+  CI (99.9%): [24964615,334, 27205613,899] (assumes normal distribution)
+
+
+# JMH version: 1.34
+# VM version: JDK 17.0.1, OpenJDK 64-Bit Server VM, 17.0.1+12-LTS
+# VM invoker: C:\Program Files\Amazon Corretto\jdk17.0.1_12\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 60 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.apache.commons.io.FilenameUtilsBenchmark.getFullPath
+# Parameters: (filename = \abc)
+
+# Run progress: 37,50% complete, ETA 00:05:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 25547615,119 ops/s
+Iteration   1: 28750398,825 ops/s
+Iteration   2: 25927307,472 ops/s
+Iteration   3: 29957335,051 ops/s
+Iteration   4: 23270020,918 ops/s
+Iteration   5: 30048498,803 ops/s
+Iteration   6: 20812282,654 ops/s
+Iteration   7: 28361284,294 ops/s
+Iteration   8: 26938495,670 ops/s
+Iteration   9: 24116574,556 ops/s
+Iteration  10: 27349396,170 ops/s
+Iteration  11: 24636143,200 ops/s
+Iteration  12: 21861870,899 ops/s
+Iteration  13: 26443751,643 ops/s
+Iteration  14: 23930036,982 ops/s
+Iteration  15: 24218219,891 ops/s
+Iteration  16: 22340902,838 ops/s
+Iteration  17: 17087857,613 ops/s
+Iteration  18: 12600458,106 ops/s
+Iteration  19: 27011547,801 ops/s
+Iteration  20: 24913684,921 ops/s
+Iteration  21: 21324759,203 ops/s
+Iteration  22: 20399554,846 ops/s
+Iteration  23: 21175342,229 ops/s
+Iteration  24: 18699994,146 ops/s
+Iteration  25: 20044127,463 ops/s
+Iteration  26: 22434701,037 ops/s
+Iteration  27: 25418094,832 ops/s
+Iteration  28: 26641575,874 ops/s
+Iteration  29: 25575946,968 ops/s
+Iteration  30: 28241458,257 ops/s
+Iteration  31: 30578608,908 ops/s
+Iteration  32: 23711757,207 ops/s
+Iteration  33: 26304394,589 ops/s
+Iteration  34: 28658605,218 ops/s
+Iteration  35: 23575016,761 ops/s
+Iteration  36: 28376735,462 ops/s
+Iteration  37: 25686711,254 ops/s
+Iteration  38: 25531604,500 ops/s
+Iteration  39: 24343321,732 ops/s
+Iteration  40: 24814877,937 ops/s
+Iteration  41: 24734923,322 ops/s
+Iteration  42: 21933899,960 ops/s
+Iteration  43: 24555449,392 ops/s
+Iteration  44: 22722361,853 ops/s
+Iteration  45: 26822503,687 ops/s
+Iteration  46: 28231966,517 ops/s
+Iteration  47: 25434874,624 ops/s
+Iteration  48: 28596998,726 ops/s
+Iteration  49: 27295426,260 ops/s
+Iteration  50: 27404503,499 ops/s
+Iteration  51: 29217853,351 ops/s
+Iteration  52: 26991500,095 ops/s
+Iteration  53: 28408640,124 ops/s
+Iteration  54: 29243770,261 ops/s
+Iteration  55: 27595007,037 ops/s
+Iteration  56: 27074134,159 ops/s
+Iteration  57: 28154721,794 ops/s
+Iteration  58: 24444273,948 ops/s
+Iteration  59: 16231204,923 ops/s
+Iteration  60: 18269041,073 ops/s
+
+
+Result "org.apache.commons.io.FilenameUtilsBenchmark.getFullPath":
+  24924605,189 ±(99.9%) 1637962,456 ops/s [Average]
+  (min, avg, max) = (12600458,106, 24924605,189, 30578608,908), stdev = 3663538,021
+  CI (99.9%): [23286642,733, 26562567,645] (assumes normal distribution)
+
+
+# JMH version: 1.34
+# VM version: JDK 17.0.1, OpenJDK 64-Bit Server VM, 17.0.1+12-LTS
+# VM invoker: C:\Program Files\Amazon Corretto\jdk17.0.1_12\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 60 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.apache.commons.io.FilenameUtilsBenchmark.getFullPathNoEndSeparator
+# Parameters: (filename = /)
+
+# Run progress: 50,00% complete, ETA 00:04:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 138487998,292 ops/s
+Iteration   1: 131214657,818 ops/s
+Iteration   2: 165675042,507 ops/s
+Iteration   3: 146588616,852 ops/s
+Iteration   4: 160437787,567 ops/s
+Iteration   5: 161284316,921 ops/s
+Iteration   6: 159174427,120 ops/s
+Iteration   7: 164428176,140 ops/s
+Iteration   8: 166580841,872 ops/s
+Iteration   9: 151914117,153 ops/s
+Iteration  10: 153481004,797 ops/s
+Iteration  11: 159206244,800 ops/s
+Iteration  12: 156132382,341 ops/s
+Iteration  13: 164702196,161 ops/s
+Iteration  14: 159664973,155 ops/s
+Iteration  15: 141323049,429 ops/s
+Iteration  16: 160291860,340 ops/s
+Iteration  17: 143273335,302 ops/s
+Iteration  18: 149245123,897 ops/s
+Iteration  19: 153920212,222 ops/s
+Iteration  20: 150656121,450 ops/s
+Iteration  21: 149894935,164 ops/s
+Iteration  22: 149872632,940 ops/s
+Iteration  23: 161837015,807 ops/s
+Iteration  24: 153672091,205 ops/s
+Iteration  25: 157403986,836 ops/s
+Iteration  26: 160408045,885 ops/s
+Iteration  27: 160559583,181 ops/s
+Iteration  28: 169462432,361 ops/s
+Iteration  29: 145397586,871 ops/s
+Iteration  30: 162541744,013 ops/s
+Iteration  31: 163723757,314 ops/s
+Iteration  32: 158932296,186 ops/s
+Iteration  33: 152514676,699 ops/s
+Iteration  34: 149979275,462 ops/s
+Iteration  35: 171258489,819 ops/s
+Iteration  36: 148853327,120 ops/s
+Iteration  37: 171562517,375 ops/s
+Iteration  38: 163939946,596 ops/s
+Iteration  39: 120433101,317 ops/s
+Iteration  40: 114809934,895 ops/s
+Iteration  41: 144233385,937 ops/s
+Iteration  42: 160449515,208 ops/s
+Iteration  43: 170293316,085 ops/s
+Iteration  44: 159778724,953 ops/s
+Iteration  45: 158835515,186 ops/s
+Iteration  46: 157647827,119 ops/s
+Iteration  47: 153287145,380 ops/s
+Iteration  48: 163714923,971 ops/s
+Iteration  49: 164622916,028 ops/s
+Iteration  50: 142874351,395 ops/s
+Iteration  51: 157653571,903 ops/s
+Iteration  52: 162666184,968 ops/s
+Iteration  53: 166949949,815 ops/s
+Iteration  54: 155217645,772 ops/s
+Iteration  55: 161412207,876 ops/s
+Iteration  56: 134646728,861 ops/s
+Iteration  57: 153978282,014 ops/s
+Iteration  58: 173391585,277 ops/s
+Iteration  59: 150338768,792 ops/s
+Iteration  60: 164207071,396 ops/s
+
+
+Result "org.apache.commons.io.FilenameUtilsBenchmark.getFullPathNoEndSeparator":
+  155707524,714 ±(99.9%) 5057406,190 ops/s [Average]
+  (min, avg, max) = (114809934,895, 155707524,714, 173391585,277), stdev = 11311614,498
+  CI (99.9%): [150650118,524, 160764930,904] (assumes normal distribution)
+
+
+# JMH version: 1.34
+# VM version: JDK 17.0.1, OpenJDK 64-Bit Server VM, 17.0.1+12-LTS
+# VM invoker: C:\Program Files\Amazon Corretto\jdk17.0.1_12\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 60 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.apache.commons.io.FilenameUtilsBenchmark.getFullPathNoEndSeparator
+# Parameters: (filename = \)
+
+# Run progress: 62,50% complete, ETA 00:03:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 128335810,037 ops/s
+Iteration   1: 133403357,045 ops/s
+Iteration   2: 150478464,174 ops/s
+Iteration   3: 162007684,460 ops/s
+Iteration   4: 148306420,598 ops/s
+Iteration   5: 156237707,551 ops/s
+Iteration   6: 159485641,028 ops/s
+Iteration   7: 153402847,773 ops/s
+Iteration   8: 161455917,547 ops/s
+Iteration   9: 163474328,688 ops/s
+Iteration  10: 159493549,751 ops/s
+Iteration  11: 152945009,729 ops/s
+Iteration  12: 142135541,637 ops/s
+Iteration  13: 160339255,910 ops/s
+Iteration  14: 148933557,338 ops/s
+Iteration  15: 156198088,276 ops/s
+Iteration  16: 153846950,161 ops/s
+Iteration  17: 153730198,999 ops/s
+Iteration  18: 152645452,512 ops/s
+Iteration  19: 130361315,534 ops/s
+Iteration  20: 115321268,339 ops/s
+Iteration  21: 132190199,543 ops/s
+Iteration  22: 158701628,710 ops/s
+Iteration  23: 172483168,735 ops/s
+Iteration  24: 160830628,046 ops/s
+Iteration  25: 160364609,742 ops/s
+Iteration  26: 156931522,070 ops/s
+Iteration  27: 139285730,549 ops/s
+Iteration  28: 156350163,972 ops/s
+Iteration  29: 158297923,206 ops/s
+Iteration  30: 161652626,445 ops/s
+Iteration  31: 157711357,445 ops/s
+Iteration  32: 166157525,325 ops/s
+Iteration  33: 157038168,538 ops/s
+Iteration  34: 163894188,611 ops/s
+Iteration  35: 158442896,878 ops/s
+Iteration  36: 156504204,353 ops/s
+Iteration  37: 146049782,751 ops/s
+Iteration  38: 145586579,678 ops/s
+Iteration  39: 157074662,791 ops/s
+Iteration  40: 136571901,334 ops/s
+Iteration  41: 135081068,844 ops/s
+Iteration  42: 139886834,680 ops/s
+Iteration  43: 133379522,370 ops/s
+Iteration  44: 164458862,234 ops/s
+Iteration  45: 145137605,322 ops/s
+Iteration  46: 151429887,421 ops/s
+Iteration  47: 160356036,017 ops/s
+Iteration  48: 173212424,807 ops/s
+Iteration  49: 154059503,904 ops/s
+Iteration  50: 166211563,526 ops/s
+Iteration  51: 162729565,786 ops/s
+Iteration  52: 160936112,695 ops/s
+Iteration  53: 166884312,283 ops/s
+Iteration  54: 155965163,236 ops/s
+Iteration  55: 160551563,567 ops/s
+Iteration  56: 162910565,085 ops/s
+Iteration  57: 146316587,285 ops/s
+Iteration  58: 167569441,269 ops/s
+Iteration  59: 162291185,740 ops/s
+Iteration  60: 153509629,755 ops/s
+
+
+Result "org.apache.commons.io.FilenameUtilsBenchmark.getFullPathNoEndSeparator":
+  153986657,693 ±(99.9%) 5025326,248 ops/s [Average]
+  (min, avg, max) = (115321268,339, 153986657,693, 173212424,807), stdev = 11239863,107
+  CI (99.9%): [148961331,445, 159011983,942] (assumes normal distribution)
+
+
+# JMH version: 1.34
+# VM version: JDK 17.0.1, OpenJDK 64-Bit Server VM, 17.0.1+12-LTS
+# VM invoker: C:\Program Files\Amazon Corretto\jdk17.0.1_12\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 60 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.apache.commons.io.FilenameUtilsBenchmark.getFullPathNoEndSeparator
+# Parameters: (filename = /abc)
+
+# Run progress: 75,00% complete, ETA 00:02:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 14682068,515 ops/s
+Iteration   1: 20937172,352 ops/s
+Iteration   2: 24763699,718 ops/s
+Iteration   3: 16990845,570 ops/s
+Iteration   4: 20415286,031 ops/s
+Iteration   5: 20233121,230 ops/s
+Iteration   6: 22630234,458 ops/s
+Iteration   7: 24129895,229 ops/s
+Iteration   8: 25923762,815 ops/s
+Iteration   9: 26242559,548 ops/s
+Iteration  10: 25332309,078 ops/s
+Iteration  11: 24459724,432 ops/s
+Iteration  12: 24088972,698 ops/s
+Iteration  13: 25093304,802 ops/s
+Iteration  14: 25299675,550 ops/s
+Iteration  15: 25654408,737 ops/s
+Iteration  16: 25632992,559 ops/s
+Iteration  17: 26667090,701 ops/s
+Iteration  18: 27548701,626 ops/s
+Iteration  19: 26893910,896 ops/s
+Iteration  20: 28715237,813 ops/s
+Iteration  21: 27790346,047 ops/s
+Iteration  22: 24852444,997 ops/s
+Iteration  23: 29893442,521 ops/s
+Iteration  24: 26059644,474 ops/s
+Iteration  25: 26552549,135 ops/s
+Iteration  26: 29755758,697 ops/s
+Iteration  27: 25136687,078 ops/s
+Iteration  28: 23180629,387 ops/s
+Iteration  29: 25182105,690 ops/s
+Iteration  30: 22228966,981 ops/s
+Iteration  31: 23611877,125 ops/s
+Iteration  32: 24259336,353 ops/s
+Iteration  33: 23430225,892 ops/s
+Iteration  34: 24761147,075 ops/s
+Iteration  35: 21424046,105 ops/s
+Iteration  36: 25495942,759 ops/s
+Iteration  37: 27149975,412 ops/s
+Iteration  38: 28859186,712 ops/s
+Iteration  39: 27244404,530 ops/s
+Iteration  40: 25508817,702 ops/s
+Iteration  41: 23018059,034 ops/s
+Iteration  42: 28170414,746 ops/s
+Iteration  43: 27311647,553 ops/s
+Iteration  44: 27494585,748 ops/s
+Iteration  45: 27656155,015 ops/s
+Iteration  46: 23795013,546 ops/s
+Iteration  47: 25681297,618 ops/s
+Iteration  48: 29449284,410 ops/s
+Iteration  49: 26749859,199 ops/s
+Iteration  50: 28310524,692 ops/s
+Iteration  51: 24208587,277 ops/s
+Iteration  52: 29852193,281 ops/s
+Iteration  53: 26286043,471 ops/s
+Iteration  54: 27386989,709 ops/s
+Iteration  55: 27420641,549 ops/s
+Iteration  56: 26056316,815 ops/s
+Iteration  57: 29765346,500 ops/s
+Iteration  58: 24512064,729 ops/s
+Iteration  59: 28043126,043 ops/s
+Iteration  60: 26802256,635 ops/s
+
+
+Result "org.apache.commons.io.FilenameUtilsBenchmark.getFullPathNoEndSeparator":
+  25633347,468 ±(99.9%) 1152523,482 ops/s [Average]
+  (min, avg, max) = (16990845,570, 25633347,468, 29893442,521), stdev = 2577784,112
+  CI (99.9%): [24480823,986, 26785870,950] (assumes normal distribution)
+
+
+# JMH version: 1.34
+# VM version: JDK 17.0.1, OpenJDK 64-Bit Server VM, 17.0.1+12-LTS
+# VM invoker: C:\Program Files\Amazon Corretto\jdk17.0.1_12\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 60 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.apache.commons.io.FilenameUtilsBenchmark.getFullPathNoEndSeparator
+# Parameters: (filename = \abc)
+
+# Run progress: 87,50% complete, ETA 00:01:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 20653455,530 ops/s
+Iteration   1: 25609048,178 ops/s
+Iteration   2: 24039473,128 ops/s
+Iteration   3: 24272470,063 ops/s
+Iteration   4: 21725338,921 ops/s
+Iteration   5: 23408780,890 ops/s
+Iteration   6: 24109718,421 ops/s
+Iteration   7: 25479269,931 ops/s
+Iteration   8: 27793908,562 ops/s
+Iteration   9: 26844854,910 ops/s
+Iteration  10: 25973457,056 ops/s
+Iteration  11: 28851130,647 ops/s
+Iteration  12: 25540231,943 ops/s
+Iteration  13: 26437896,024 ops/s
+Iteration  14: 27826273,065 ops/s
+Iteration  15: 24730384,366 ops/s
+Iteration  16: 28414983,741 ops/s
+Iteration  17: 25387151,695 ops/s
+Iteration  18: 26639947,741 ops/s
+Iteration  19: 28120945,204 ops/s
+Iteration  20: 28945774,577 ops/s
+Iteration  21: 25830712,495 ops/s
+Iteration  22: 27985873,841 ops/s
+Iteration  23: 23893636,032 ops/s
+Iteration  24: 25971277,120 ops/s
+Iteration  25: 26239365,314 ops/s
+Iteration  26: 24825277,743 ops/s
+Iteration  27: 26501220,432 ops/s
+Iteration  28: 27200588,021 ops/s
+Iteration  29: 27653133,531 ops/s
+Iteration  30: 28271144,498 ops/s
+Iteration  31: 30899592,872 ops/s
+Iteration  32: 27998847,500 ops/s
+Iteration  33: 28490166,885 ops/s
+Iteration  34: 26781788,735 ops/s
+Iteration  35: 26085618,412 ops/s
+Iteration  36: 25115523,545 ops/s
+Iteration  37: 26322128,175 ops/s
+Iteration  38: 27404265,657 ops/s
+Iteration  39: 26178588,482 ops/s
+Iteration  40: 27032333,768 ops/s
+Iteration  41: 26384872,162 ops/s
+Iteration  42: 26160451,789 ops/s
+Iteration  43: 28299546,943 ops/s
+Iteration  44: 25626088,948 ops/s
+Iteration  45: 26901254,606 ops/s
+Iteration  46: 25988743,288 ops/s
+Iteration  47: 24683890,655 ops/s
+Iteration  48: 27218732,354 ops/s
+Iteration  49: 26646760,548 ops/s
+Iteration  50: 26932737,533 ops/s
+Iteration  51: 25895088,423 ops/s
+Iteration  52: 24660694,625 ops/s
+Iteration  53: 27525040,965 ops/s
+Iteration  54: 27568911,865 ops/s
+Iteration  55: 21108665,343 ops/s
+Iteration  56: 25166991,766 ops/s
+Iteration  57: 24855075,838 ops/s
+Iteration  58: 23092131,092 ops/s
+Iteration  59: 24129581,525 ops/s
+Iteration  60: 24733651,883 ops/s
+
+
+Result "org.apache.commons.io.FilenameUtilsBenchmark.getFullPathNoEndSeparator":
+  26173517,238 ±(99.9%) 794732,178 ops/s [Average]
+  (min, avg, max) = (21108665,343, 26173517,238, 30899592,872), stdev = 1777532,530
+  CI (99.9%): [25378785,060, 26968249,415] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:08:16
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                         (filename)   Mode  Cnt          Score         Error  Units
+FilenameUtilsBenchmark.getFullPath                         /  thrpt   60   73971877,091 ± 2853717,902  ops/s
+FilenameUtilsBenchmark.getFullPath                         \  thrpt   60   71023722,984 ± 3639212,465  ops/s
+FilenameUtilsBenchmark.getFullPath                      /abc  thrpt   60   26085114,617 ± 1120499,283  ops/s
+FilenameUtilsBenchmark.getFullPath                      \abc  thrpt   60   24924605,189 ± 1637962,456  ops/s
+FilenameUtilsBenchmark.getFullPathNoEndSeparator           /  thrpt   60  155707524,714 ± 5057406,190  ops/s
+FilenameUtilsBenchmark.getFullPathNoEndSeparator           \  thrpt   60  153986657,693 ± 5025326,248  ops/s
+FilenameUtilsBenchmark.getFullPathNoEndSeparator        /abc  thrpt   60   25633347,468 ± 1152523,482  ops/s
+FilenameUtilsBenchmark.getFullPathNoEndSeparator        \abc  thrpt   60   26173517,238 ±  794732,178  ops/s

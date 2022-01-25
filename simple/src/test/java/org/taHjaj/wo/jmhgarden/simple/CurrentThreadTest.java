@@ -16,7 +16,6 @@ import java.util.concurrent.TimeUnit;
 @Ignore
 public class CurrentThreadTest {
 
-    
     @Test
     public void testCurrentThread() throws Exception {
 
